@@ -1,0 +1,120 @@
+body{
+    /* background-color: rgb(222, 225, 227); */
+   z-index: 0;
+}
+
+
+#nav{
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+#img{
+    width: 70px;
+}
+
+#con{
+    background-color: rgb(223, 232, 232);
+}
+
+
+#fluid{
+    background-color:azure;
+}
+
+#manish{
+    width: 180px;
+    background-color: rgb(222, 225, 227) ;
+}
+
+/* #conu{
+    
+    background-color: darkblue;
+} */
+
+#hello{
+    border-top: 1px solid  silver;
+    border-right: 1px solid  silver;
+    border-left: 1px solid  silver;
+    border-bottom: 5px solid silver;
+    border-radius: 10px;
+    line-height: 100px;
+
+    
+}
+#hello:hover{
+    border-top: 1px solid rgb(31, 19, 100);
+    border-right: 1px solid  rgb(31, 19, 100);
+    border-left: 1px solid  rgb(31, 19, 100);
+    border-bottom: 5px solid  rgb(31, 19, 100);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#card:hover{
+    cursor: pointer;
+}
+
+#placement:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#card{
+    border-top: 1px solid  silver;
+    border-right: 1px solid  silver;
+    border-left: 1px solid  silver;
+    border-bottom: 7px solid silver;
+    border-radius: 10px;
+    /* line-height: 100px; */
+}
+#card:hover{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 8px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    cursor: pointer;
+   
+}
+
+/* #containerm:hover{
+    cursor: pointer;
+    color: blue;
+} */
+
+.dropdown-menu ul{
+  list-style: none;
+  padding: 0;
+
+}
+
+.dropdown-menu.show{
+    display: flex;
+}
+
+.dropdown-menu li
+.dropdown-menu li:first-child a{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: flex;
+    box-shadow: 0px 0px 2px 2px rgb(105, 105, 91);
+}
+
+
+/* backgroud image shape look */
+
+#manish_yadav{
+    filter:hue-rotate(85deg);
+    filter:contrast(15px 15px 20px red )
+    
+}
